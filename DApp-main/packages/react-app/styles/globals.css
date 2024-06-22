@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.copy-button {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fffefe;
+  background-color: #00ff15; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #0056b3; 
+}
+
+.container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto 0;
+  box-shadow: 0 16px 8px rgba(0, 0, 0, 0.1); 
+  width: 900px; 
+  text-align: center;
+  height: 800px;
+  margin-top: 10px;
+}
+
+.container {
+  background-color: #b1a1c8; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.address, .transaction {
+  margin-bottom: 15px;
+}
+
+.addressNumber {
+  color: #3b2c5e; 
+}
+
+.your-custom-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.your-custom-class button {
+  background-color: #28a745 !important; 
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px !important; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.your-custom-class button:hover {
+  background-color: #218838 !important; 
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.primary-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff; /* White text color for good contrast */
+  background-color: #4b3c6e; /* Darker shade of purple */
+  border: none;
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+}
+
+.primary-button:hover {
+  background-color: #3b2c5e; 
+}
+
+.transaction {
+  color: #0ecf48; 
+}
